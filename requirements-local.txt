@@ -1,0 +1,7 @@
+# Only needed to regenerate the ASCII portrait and info card locally --
+# these two are hand-run when your photo or bio changes, not part of CI
+# (see scripts/requirements.txt for what the GitHub Action actually installs).
+pillow==10.4.0
+opencv-python-headless==4.10.0.84
+numpy==1.26.4
+rembg==2.0.59
